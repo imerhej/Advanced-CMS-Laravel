@@ -18,6 +18,8 @@
 
     @include('_includes.nav.main')
 
+    @include('_includes.nav.manage')
+
     <div id="app">
       @yield('content')
     </div>
